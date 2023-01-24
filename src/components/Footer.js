@@ -1,4 +1,6 @@
 import React from 'react';
+import './Footer.css'
+
 
 export default function Footer() {
   // All functional components must have a return method that contains JSX.
