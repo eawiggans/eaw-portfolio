@@ -4,6 +4,8 @@ import React from 'react';
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
+    <div className='header'>
+        <h1>Emma Wiggans Web Portfolio</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -36,6 +38,7 @@ function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

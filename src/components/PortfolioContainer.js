@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 import About from './pages/About';
 import WorkExamples from './pages/WorkExamples';
 import Contact from './pages/Contact';
+import Footer from './Footer'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -26,6 +27,7 @@ export default function PortfolioContainer() {
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer />
     </div>
   );
 }
