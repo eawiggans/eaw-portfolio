@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eaw-portfolio/static/css/main.c2cab247.css",
+    "main.js": "/eaw-portfolio/static/js/main.131d9dc1.js",
+    "index.html": "/eaw-portfolio/index.html",
+    "main.c2cab247.css.map": "/eaw-portfolio/static/css/main.c2cab247.css.map",
+    "main.131d9dc1.js.map": "/eaw-portfolio/static/js/main.131d9dc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.131d9dc1.js"
+  ]
+}
