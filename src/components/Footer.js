@@ -9,7 +9,7 @@ export default function Footer() {
     <div className="footer">
       <h3>Find out more:</h3>
       <ul className="parent">
-        <li>Github Profile</li>
+        <li><a href="https://github.com/eawiggans">Github Profile</a></li>
         <li>Linked In Profile</li>
       </ul>
     </div>
