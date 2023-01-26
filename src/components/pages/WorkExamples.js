@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './Project'
 
 export default function WorkExamples() {
   return (
@@ -7,6 +8,7 @@ export default function WorkExamples() {
       <p>
         This is where examples of work will go.
       </p>
+      <div><Project /></div>
     </div>
   );
 }

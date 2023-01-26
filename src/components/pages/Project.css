@@ -1,0 +1,14 @@
+.work-title {
+    margin-top: -70px;
+    font-weight: bold;
+}
+
+.work-title, a {
+    color:black;
+    text-decoration: none;
+    
+}
+
+.container {
+    margin: 20px;
+}
