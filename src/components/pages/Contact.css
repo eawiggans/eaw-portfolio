@@ -1,0 +1,17 @@
+.footer, h3 {
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+

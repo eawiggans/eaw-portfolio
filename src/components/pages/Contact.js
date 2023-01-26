@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import './Contact.css'
 
 function Contact() {
   const [email, setEmail] = useState('');
@@ -37,21 +38,21 @@ function Contact() {
     <div>
       <h3>Contact me through this form:</h3>
       <form className="form">
+        <label>Your Email Address</label>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
         />
+        <label>What would you like to say?</label>
         <input
           value={conText}
           name="conText"
           onChange={handleInputChange}
           type="text"
-          placeholder="Your message here"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button type="button" className='btn btn-dark' onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
