@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/eaw-portfolio/static/css/main.35e6ec8c.css",
-    "main.js": "/eaw-portfolio/static/js/main.8a12f3d7.js",
+    "main.css": "/eaw-portfolio/static/css/main.9ff52abb.css",
+    "main.js": "/eaw-portfolio/static/js/main.3de1760b.js",
     "static/media/weathercrop.png": "/eaw-portfolio/static/media/weathercrop.0c853d7fec3889e2a5a3.png",
     "index.html": "/eaw-portfolio/index.html",
-    "main.35e6ec8c.css.map": "/eaw-portfolio/static/css/main.35e6ec8c.css.map",
-    "main.8a12f3d7.js.map": "/eaw-portfolio/static/js/main.8a12f3d7.js.map"
+    "main.9ff52abb.css.map": "/eaw-portfolio/static/css/main.9ff52abb.css.map",
+    "main.3de1760b.js.map": "/eaw-portfolio/static/js/main.3de1760b.js.map"
   },
   "entrypoints": [
-    "static/css/main.35e6ec8c.css",
-    "static/js/main.8a12f3d7.js"
+    "static/css/main.9ff52abb.css",
+    "static/js/main.3de1760b.js"
   ]
 }
