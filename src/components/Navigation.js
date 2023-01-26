@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './Navigation.css'
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div className='header'>
+    <div className='header'> <div>
         <h1>Emma Wiggans Web Portfolio</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -37,7 +37,18 @@ function Navigation({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
     </ul>
+    </div>
+
     </div>
   );
 }
