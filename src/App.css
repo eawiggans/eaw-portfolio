@@ -13,17 +13,23 @@
 
 nav {
     
-    background-color: rgb(31, 31, 49);;
+    background-color: rgb(31, 31, 49);
 }
 
 nav a {
     color: var(--pink-purp) !important;
+    background-color: rgb(31, 31, 49);
 }
 
 h1 {
     font-family: 'Karla', sans-serif;
     font-weight: bold;
     color: var(--blue-purp);
+    background-color: rgb(31, 31, 49);
+}
+
+nav ul {
+    background-color: rgb(31, 31, 49);
 }
 
 a:hover {

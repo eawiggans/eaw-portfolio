@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <div>
       <nav className='navbar d-flex'>
-        <h1 className='p-2'>Emma Wiggans</h1>
+        <h1 className='m-2 ps-2'>Emma Wiggans</h1>
         <ul className="navbar-nav d-flex flex-row justify-content-between p-1">
           <li className="nav-item m-1">
             <a
