@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css'
-import weather from '../../assets/weathercrop.png';
+import weather from '../assets/weathercrop.png';
 
 function projectCard() {
     return (

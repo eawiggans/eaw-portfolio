@@ -1,0 +1,44 @@
+:root {
+    --pink-purp: rgb(194, 87, 225);
+    --blue-purp: rgb(148, 159, 224);
+    --bg-blue-grey: rgb(48, 48, 75);
+  }
+
+* {
+    font-family: 'Inconsolata', monospace;
+    background-color: var(--bg-blue-grey);
+    color: var(--blue-purp);
+}
+/* Navbar Styles */
+
+nav {
+    
+    background-color: rgb(31, 31, 49);;
+}
+
+nav a {
+    color: var(--pink-purp) !important;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: var(--blue-purp);
+}
+
+a:hover {
+    color: rgb(152, 70, 134) !important;
+}
+
+/* Footer Styles */
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    background-color: var(--bg-blue-grey);
+    color: var(--blue-purp);
+}
+
+.footer ul {
+    list-style: none;
+}
