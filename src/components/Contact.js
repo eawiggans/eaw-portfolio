@@ -35,7 +35,7 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className='m-3'>
       <h3>Contact me through this form:</h3>
       <form className="form">
         <label>Your Email Address</label>

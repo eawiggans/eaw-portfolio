@@ -1,11 +1,13 @@
 :root {
     --pink-purp: rgb(194, 87, 225);
     --blue-purp: rgb(148, 159, 224);
+    --blue-purpier: rgb(16, 144, 213);
     --bg-blue-grey: rgb(48, 48, 75);
+    --active-maroon: rgb(152, 70, 134);
   }
 
 * {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Vollkorn', serif;
     background-color: var(--bg-blue-grey);
     color: var(--blue-purp);
 }
@@ -17,14 +19,19 @@ nav {
 }
 
 nav a {
-    color: var(--pink-purp) !important;
+    color: var(--active-maroon) !important;
+    
     background-color: rgb(31, 31, 49);
 }
 
+.active {
+    color: var(--pink-purp) !important;
+}
+
 h1 {
-    font-family: 'Karla', sans-serif;
-    font-weight: bold;
-    color: var(--blue-purp);
+    
+    font-weight: bolder;
+    color: var(--blue-purpier);
     background-color: rgb(31, 31, 49);
 }
 
@@ -33,8 +40,21 @@ nav ul {
 }
 
 a:hover {
-    color: rgb(152, 70, 134) !important;
+    color: var(--pink-purp) !important;
 }
+
+h2 {
+    color: var(--blue-purpier);
+}
+
+/* About Styles */
+/* .left-div {
+    max-width: 20%;
+}
+
+.right-div {
+    min-width: 80%;
+} */
 
 /* Footer Styles */
 
