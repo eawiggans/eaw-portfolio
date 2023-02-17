@@ -56,6 +56,14 @@ h2 {
     min-width: 80%;
 } */
 
+
+
+/* Contact Styles */
+
+.contact-link {
+    color: var(--active-maroon) !important;
+}
+
 /* Footer Styles */
 
 .footer {
@@ -67,4 +75,8 @@ h2 {
 
 .footer ul {
     list-style: none;
+}
+
+.footer-links a {
+    color: var(--active-maroon) !important;
 }
