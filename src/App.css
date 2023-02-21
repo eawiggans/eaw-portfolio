@@ -59,32 +59,46 @@ h2 {
 
 /* Work Examples Styles */
 
+.work-ex-container {
+    margin-bottom: 150px;
+}
+
 .work-box {
-    margin-top: -125px;
+    margin-top: -7rem;
+    margin-left: 1rem;
     font-weight: bold;
     display: block;
     position: relative;
     z-index: 3;
     width: 70%;
     height: 30%;
-    background-color: white !important;
+    /* display: none; */
 }
 
-.work-box p {
-    background-color: white;
-}
+/* .work-box:hover {
+    display: block;
+} */
+
+
 .work-box a {
     text-decoration: none;
 }
 
-.project-link {
+.title-span {
+    color: var(--blue-purpier);
+}
+
+.description-span {
+    font-weight: lighter;
+}
+/* .project-link {
     background-color: white;
 }
 
 .main-link {
     
     background-color: white;
-}
+} */
 
 .project-card {
     margin: 20px;
@@ -94,6 +108,11 @@ h2 {
 img {
     max-width: 100%;
     z-index: 1;
+}
+
+.workbox-links a {
+    color: var(--active-maroon) !important;
+    font-size: 1rem;
 }
 
 
@@ -106,6 +125,8 @@ img {
 /* Footer Styles */
 
 .footer {
+    position: absolute;
+    height: 65px;
     text-align: center;
     margin-top: 10px;
     background-color: var(--bg-blue-grey);
