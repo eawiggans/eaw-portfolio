@@ -57,6 +57,45 @@ h2 {
 } */
 
 
+/* Work Examples Styles */
+
+.work-box {
+    margin-top: -125px;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 70%;
+    height: 30%;
+    background-color: white !important;
+}
+
+.work-box p {
+    background-color: white;
+}
+.work-box a {
+    text-decoration: none;
+}
+
+.project-link {
+    background-color: white;
+}
+
+.main-link {
+    
+    background-color: white;
+}
+
+.project-card {
+    margin: 20px;
+    width: 40%;
+}
+
+img {
+    max-width: 100%;
+    z-index: 1;
+}
+
 
 /* Contact Styles */
 
