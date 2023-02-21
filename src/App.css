@@ -8,7 +8,7 @@
 
 * {
     font-family: 'Vollkorn', serif;
-    background-color: var(--bg-blue-grey);
+    background-color: rgb(235, 231, 253);
     color: var(--blue-purp);
 }
 /* Navbar Styles */
@@ -114,8 +114,13 @@ img {
 
 .footer ul {
     list-style: none;
+    background-color: var(--bg-blue-grey);
 }
 
+.footer ul li {
+    background-color: var(--bg-blue-grey);
+}
 .footer-links a {
     color: var(--active-maroon) !important;
+    background-color: var(--bg-blue-grey);
 }
